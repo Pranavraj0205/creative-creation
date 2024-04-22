@@ -1,0 +1,67 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.close-btn{
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: white;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items:center ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-left: 50px;
+    padding: 20px;
+    gap: 1.5rem;
+}
+.hero1{
+    display: flex;
+    gap: 5.8rem;
+}
+.color{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.color-title{
+    margin-bottom: 10px;
+}
+
+.color-bg  button {
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .color-bg button:hover {
+    transform: scale(1.2); 
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.creatives{
+    width: 60%;
+    display: flex;
+    gap: 8px;
+    margin-top: 50px;
+}
+.creatives .progress{
+    width: 50%;
+}
+.btn button{
+    width: 10rem;
+    padding: 5px;
+    background-color: white;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 80px;
+}
